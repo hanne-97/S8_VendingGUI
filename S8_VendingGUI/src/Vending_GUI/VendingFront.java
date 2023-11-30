@@ -14,9 +14,7 @@ public class VendingFront extends javax.swing.JFrame {
     3 - sprite 
     4 - diet 
     5 - Water 
-    */
-    
-    
+    */       
     
     public VendingFront() {
         // JOptionPane.
@@ -756,7 +754,9 @@ public class VendingFront extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 471, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 478, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
